@@ -1,8 +1,6 @@
 Simple Database (https://thumbtack.com)
 
-Your task is create a very simple in-memory database, which has a very limited command set. 
-Please code your solution in one of the following languages: Python, PHP, JavaScript, Ruby, Perl, Java, C++ or C. 
-This problem should take you anywhere from 30 to 90 minutes. All of the commands are going to be fed to you one line at a time via stdin, and your job is to process the commands and to perform whatever operation the command dictates.
+This task is create a very simple in-memory database, which has a very limited command set. All of the commands are going to be fed to you one line at a time via stdin, and your job is to process the commands and to perform whatever operation the command dictates.
 
 Data commands
 
@@ -95,7 +93,7 @@ Output:
 20 
 10 
 NULL
----------------------------------------------------------
+------------------------------------------------------------------------------------
 
 Input:
 
@@ -112,7 +110,7 @@ Output:
 
 40 
 NO TRANSACTION
----------------------------------------------------------
+------------------------------------------------------------------------------------
 
 Input:
 
@@ -135,7 +133,7 @@ Output:
 NULL 
 60 
 60
----------------------------------------------------------
+------------------------------------------------------------------------------------
 
 Input:
 
@@ -154,10 +152,14 @@ Output:
 1 
 0 
 1
----------------------------------------------------------
+------------------------------------------------------------------------------------
+I implement this simple database application by using Python and ply library.
 
 How to execute the Simple Database?  Compatible with Python 2.xx or 3.xx version.
 
-$python database.py         #on Linux Platform
-or 
-C:\python database.py       #on Windows Platform
+The command:
+
+        $python database.py         #on Linux Platform
+                          or 
+        C:\python database.py       #on Windows Platform
+        
